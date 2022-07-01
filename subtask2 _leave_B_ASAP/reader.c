@@ -8,7 +8,6 @@
 #include <semaphore.h>
 #include <time.h>
 
-#define N 3
 
 int main() {
 	sem_t *SA, *SB;
