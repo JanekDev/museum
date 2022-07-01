@@ -3,6 +3,7 @@
 #clean the environment
 rm /dev/shm/sem.SA
 rm /dev/shm/sem.SB
+rm /dev/shm/sem.mutexB
 
 #compile with warning flags to ensure program correctness   
 gcc reader.c -Wall -Wextra -o reader.out
