@@ -8,7 +8,6 @@
 #include <semaphore.h>
 #include <time.h>
 
-#define N 3
 
 int main() {
 	sem_t *SA, *SB, *mutexB;
@@ -53,6 +52,8 @@ int main() {
 	}
 	sem_close(SA);
 	sem_close(SB);
+	sem_close(mutexB);
 	sem_unlink("/SA");
 	sem_unlink("/SB");
+	sem_unlink("/mutexB");
 }
