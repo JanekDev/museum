@@ -1,7 +1,10 @@
 # The museum - a concurrent programming project
 This was a project for the Operating systems with concurrency programming course.
 ## Introduction
-![](img/museum.png)<br>
+<p align="center">
+    <img src="img/museum.png"/>
+<p>
+
 The museum has 2 halls - A and B, both with limited capacity and _C<sub>A</sub> > C<sub>B</sub>_. Some of the visitors want to go to the A hall and leave, others want to visit both exhibitions. This environment was used to formulate two problems:
 1. Maximize the number of visitors who visit the museum at the same time.
 2. Allow people from the hall B to leave the museum as fast as possible.
